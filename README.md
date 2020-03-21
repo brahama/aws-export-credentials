@@ -7,6 +7,7 @@ It outputs the commands to export them based on the default profile or a given o
 ## Usage
 
 `npm i`
+
 `node exportAwsCredentials.js`
 
 ```bash
@@ -24,6 +25,7 @@ If you want to make it simpler and global to use, you can use the binary provide
 build it yourself using [nexe](https://github.com/nexe/nexe)
 
 `npm i nexe -g`
+
 `nexe exportAwsCredentials.js`
 
 ```bash

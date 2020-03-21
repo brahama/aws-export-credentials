@@ -1,6 +1,6 @@
 const fs = require("fs");
 const ini = require("ini");
-const credentialsFilePath = "/Users/aroca/.aws/credentials";
+const credentialsFilePath = "/[YOUR HOME HERE]/.aws/credentials";
 const awsProfile = process.argv[2] || "edrans";
 
 console.log(awsProfile);
