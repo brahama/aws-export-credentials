@@ -6,10 +6,9 @@ It outputs the commands to export them based on the default profile or a given o
 
 ## Usage
 
-Modify the first lines for now hardcoded.
+Modify the first line for now hardcoded.
 
 ```javascript
-const credentialsFilePath = "/[YOUR HOME HERE]/.aws/credentials";
 const awsProfile = process.argv[2] || "edrans"; // This sets the default profile
 ```
 
